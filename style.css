@@ -144,6 +144,11 @@ img {
     border-radius: 10px;
 }
 
+.card:hover {
+  transform: translateY(-8px);
+  transition: 0.3s;
+}
+
 special {
     display: flex;
     align-items: center;
@@ -188,6 +193,10 @@ special {
     gap: 25px;
 }
 
+.gallery-content img:hover{
+    scale: calc(1.5);
+}
+
 .testinomial-content{
     display: flex;
     align-items: center;
@@ -214,6 +223,12 @@ special {
     width: 350px;
 }
 
+.testimonial-card:hover {
+  transform: translateY(-8px);
+  transition: 0.3s;
+  scale: calc(1.25);
+}
+
 reservations {
     display: flex;
     align-items: center;
@@ -237,12 +252,12 @@ input{
     border-radius: 10px;
     border: none;
     width: 300px;
-    background-color: #ff6b35;
-    color: white;
+    background-color:#9d8a5d74;
+    color: black;
 }
 
 input::placeholder {
-    color: white;
+    color: black;
 }
 
 .footer-content{
@@ -255,6 +270,10 @@ input::placeholder {
     background-color: #ffd166;
     color: white;
 }
+.footer-content h1 , h2{
+    background-color: #ff6b3550;
+}
+
 .contact ,.hours, .social {
     display: flex;
     align-items: center;
@@ -269,6 +288,6 @@ input::placeholder {
     padding: 10px 20px;
     margin: 0px;
     border-radius: 10px;
-    background-color: #ff3b15;
+    background-color: #ffd166;
     color: white;
 }
