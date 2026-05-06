@@ -105,6 +105,12 @@ hero {
     background-position: center;
 }
 
+hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+}
 about {
     display: flex;
     align-items: center;
